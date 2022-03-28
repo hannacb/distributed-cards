@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  background-color: #f5f2f0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+main ol {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #ede3db;
+  padding: 1rem;
+  border: 2px solid #623b0c;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  font-family: 'Denk One', sans-serif;
+  color: #623b0c;
+}
+
+li a {
+  font-size: 1.125rem;
+  padding: .75rem;
+  background-color: #e7e7e7;
+  border-radius: 6px;
+  text-align: center;
+  color: #000;
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+img {
+  width: 100%;
+}
+
+h1 {
+  padding : .6em;
+}
