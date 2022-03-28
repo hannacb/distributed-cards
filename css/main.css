@@ -15,7 +15,6 @@ main ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin: 1rem;
   padding: 0;
 }
 
@@ -43,7 +42,6 @@ li a {
   text-decoration: none;
   text-align: left;
   justify-content: flex-end;
-  padding-top: 1rem;
 }
 
 li a:hover {
@@ -61,7 +59,12 @@ body {
 }
 
 h1 {
-  padding-left: 1rem;
   font-size: 2rem;
   padding-bottom: 0;
+}
+
+main {
+  margin: 0;
+  padding-left: .6em;
+  padding-right: .6em;
 }
