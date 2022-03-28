@@ -23,25 +23,26 @@ li {
   flex-direction: column;
   justify-content: flex-start;
   background-color: #ede3db;
-  padding: 1rem;
+  padding-top: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
   border: 2px solid #623b0c;
   border-radius: 8px;
 }
 
 h1, h2 {
-  font-family: 'Denk One', sans-serif;
+  font-family: "Denk One", sans-serif;
   color: #623b0c;
 }
 
 li a {
   font-size: 1.125rem;
   padding: .75rem;
-  background-color: #e7e7e7;
+  background-color: #623b0c;
   border-radius: 6px;
-  text-align: center;
-  color: #000;
+  color: #fff;
   text-decoration: none;
-  margin-top: 1.5rem;
 }
 
 li a:hover {
@@ -53,6 +54,6 @@ img {
   width: 100%;
 }
 
-h1 {
-  padding : .6em;
+body {
+  margin: 0;
 }
