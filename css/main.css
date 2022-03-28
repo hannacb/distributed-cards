@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   background-color: #f5f2f0;
+  font-family: Georgia, serif;
 }
 
 *,
@@ -14,16 +15,14 @@ main ol {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 1rem;
-  margin: 0;
+  margin: 1rem;
   padding: 0;
 }
 
 li {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   background-color: #ede3db;
-  padding-top: 0;
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
@@ -37,12 +36,14 @@ h1, h2 {
 }
 
 li a {
-  font-size: 1.125rem;
-  padding: .75rem;
+  padding: .5em;
   background-color: #623b0c;
   border-radius: 6px;
   color: #fff;
   text-decoration: none;
+  text-align: left;
+  justify-content: flex-end;
+  padding-top: 1rem;
 }
 
 li a:hover {
@@ -52,8 +53,15 @@ li a:hover {
 
 img {
   width: 100%;
+  padding-bottom: .5em;
 }
 
 body {
   margin: 0;
+}
+
+h1 {
+  padding-left: 1rem;
+  font-size: 2rem;
+  padding-bottom: 0;
 }
